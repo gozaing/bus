@@ -11,11 +11,26 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    
+    @IBOutlet weak var testTable: WKInterfaceTable!
+    
+    var test = ["aaa", "bbb", "test3", "test4", "test5"]
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
         // Configure interface objects here.
+        
+        let totalnum = self.test.count
+        print(totalnum)
+        testTable.setNumberOfRows(totalnum, withRowType: "TestRow")
+        print(testTable.numberOfRows)
+        
+        for index in 0..<totalnum {
+            let row = testTable.rowController(at: index) as! TestRow
+            row.testLabel.setText(test[index])
+        }
+        
     }
     
     override func willActivate() {
