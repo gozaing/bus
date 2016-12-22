@@ -19,8 +19,9 @@
                                 <tableRow identifier="TestRow" id="d5V-aH-T5z" customClass="TestRow" customModule="bus_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="DE2-SL-KZs">
                                         <items>
-                                            <label height="35" alignment="left" text="Label" id="BF8-ue-ZGm"/>
+                                            <label height="35" alignment="left" text="Label" textAlignment="left" id="BF8-ue-ZGm"/>
                                         </items>
+                                        <color key="backgroundColor" red="0.0" green="1" blue="0.69920298218714905" alpha="0.57901152482269502" colorSpace="calibratedRGB"/>
                                     </group>
                                     <connections>
                                         <outlet property="testLabel" destination="BF8-ue-ZGm" id="7tL-xA-BnP"/>
