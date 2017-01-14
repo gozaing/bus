@@ -43,7 +43,7 @@
             <objects>
                 <controller id="Sjz-lX-ZNC" customClass="InterfaceController_2" customModule="bus_WatchKit_Extension">
                     <items>
-                        <button width="1" alignment="left" title="ChatWork" id="DYh-2Y-tnE">
+                        <button width="1" alignment="left" title="這うような辛さ" id="DYh-2Y-tnE">
                             <connections>
                                 <action selector="sendMessage" destination="Sjz-lX-ZNC" id="ArK-sa-nft"/>
                             </connections>

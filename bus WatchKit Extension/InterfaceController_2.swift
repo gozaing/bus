@@ -22,15 +22,25 @@ class InterfaceController_2: WKInterfaceController {
         
         var html = ""
         
-        let headers: HTTPHeaders = ["User-Agent": "WatchKit Extension/1.0 (watchkitapp.watchkitextension; build:1; watchOS 3.1.0) "]
+        //let url: String = "http://requestb.in/rcwq6crc"
+        let url: String = "https://api.chatwork.com/v1/rooms/xxxxx/messages"
         
-//        Alamofire.request("http://requestb.in/rcwq6crc", headers: headers)
-//            .responseString { response in
-//                
-//                html = response.result.value!
-//                print(html)
-//                
-//        }
+        let headers: HTTPHeaders = [
+            "User-Agent": "WatchKit Extension/1.0 (watchkitapp.watchkitextension; build:1; watchOS 3.1.0) ",
+            "X-ChatWorkToken": "xxxxx"
+        ]
+        
+        let msg: String = "【業務連絡】\n這うような辛さがあり、30分遅れます。\n \"Apple Watch\"から送信"
+        let parameters: Parameters = ["body": msg]
+        
+        
+        Alamofire.request(url, method: .post, parameters: parameters, headers: headers)
+            .responseString { response in
+                
+                html = response.result.value!
+                print(html)
+                
+        }
     }
     
     let cancelButtonAction = WKAlertAction(title:"キャンセル", style: .default) { () -> Void in
