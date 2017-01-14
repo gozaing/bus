@@ -32,10 +32,29 @@
                     </items>
                     <connections>
                         <outlet property="testTable" destination="ziG-Zr-HrW" id="7R1-WD-gJm"/>
+                        <segue destination="Sjz-lX-ZNC" kind="relationship" relationship="nextPage" id="aZ0-jo-uzA"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Interface Controller2-->
+        <scene sceneID="bmf-wj-n7R">
+            <objects>
+                <controller id="Sjz-lX-ZNC" customClass="InterfaceController_2" customModule="bus_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="ChatWork" id="DYh-2Y-tnE">
+                            <connections>
+                                <action selector="sendMessage" destination="Sjz-lX-ZNC" id="ArK-sa-nft"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="sendMessage" destination="DYh-2Y-tnE" id="gEx-af-Sav"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="345"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

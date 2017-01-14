@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4FA3F9FF1E06817B0021632E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA3F9FE1E06817B0021632E /* libxml2.tbd */; };
+		4FB1F82E1E2A4EB400473415 /* InterfaceController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1F82D1E2A4EB400473415 /* InterfaceController_2.swift */; };
 		4FEC2AA21E0667C00059C322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC2AA11E0667C00059C322 /* AppDelegate.swift */; };
 		4FEC2AA41E0667C00059C322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC2AA31E0667C00059C322 /* ViewController.swift */; };
 		4FEC2AA71E0667C00059C322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC2AA51E0667C00059C322 /* Main.storyboard */; };
@@ -93,6 +94,7 @@
 		440378EF1905A9D532E50353 /* Pods_bus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FD80B4EB684CEC707AD33B /* Pods_bus_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bus_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA3F9FE1E06817B0021632E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
+		4FB1F82D1E2A4EB400473415 /* InterfaceController_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController_2.swift; sourceTree = "<group>"; };
 		4FEC2A9E1E0667C00059C322 /* bus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEC2AA11E0667C00059C322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FEC2AA31E0667C00059C322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				4FEC2ADC1E0667C10059C322 /* InterfaceController.swift */,
+				4FB1F82D1E2A4EB400473415 /* InterfaceController_2.swift */,
 				4FEC2ADE1E0667C10059C322 /* ExtensionDelegate.swift */,
 				4FEC2AE01E0667C10059C322 /* NotificationController.swift */,
 				4FEC2AE21E0667C10059C322 /* Assets.xcassets */,
@@ -752,6 +755,7 @@
 			files = (
 				4FEC2AF91E0668560059C322 /* TestRow.swift in Sources */,
 				4FEC2AE11E0667C10059C322 /* NotificationController.swift in Sources */,
+				4FB1F82E1E2A4EB400473415 /* InterfaceController_2.swift in Sources */,
 				4FEC2ADF1E0667C10059C322 /* ExtensionDelegate.swift in Sources */,
 				4FEC2ADD1E0667C10059C322 /* InterfaceController.swift in Sources */,
 			);
